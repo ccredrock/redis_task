@@ -1,0 +1,4 @@
+%% encoding: UTF-8
+{application,redis_task}.
+{modules,[redis_alive,redis_group,redis_group_sup,redis_task,redis_task_app,
+          redis_task_sup]}.
